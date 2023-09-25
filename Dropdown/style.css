@@ -1,0 +1,40 @@
+.menu {
+    background-color: #e0e0e0;
+    border-top: 1px solid #cfcfcf;
+    border-bottom: 1px solid #cfcfcf;
+}
+
+.menu__item {
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.9rem;
+    font-weight: 400;
+    display: inline-block;
+    color: #292929;
+    text-decoration: none;
+    padding: 0.5rem 2rem;
+}
+
+.menu__item:hover {
+    background-color: #ffffff;
+    margin: 0 -1px;
+}
+
+.menu__items--current .menu__item__link {
+    color: #333333;
+    border-bottom: 2px solid #333;
+    padding-bottom: 0.3rem;
+}
+
+.menu__item__link {
+    text-decoration: none;
+    color: #555;
+    font-family: Roboto;
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
+.menu__item__link:hover {
+    text-decoration: underline;
+    color: #1c60bb;
+}
+
